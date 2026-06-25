@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 300" width="1280" height="300" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0F7C66"/>
+      <stop offset="1" stop-color="#0B5C4C"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="300" rx="22" fill="#FBFAF6"/>
+  <!-- ambient motif -->
+  <circle cx="1080" cy="150" r="240" fill="#E6F2EE" opacity="0.55"/>
+  <circle cx="1080" cy="150" r="150" fill="#FBFAF6"/>
+
+  <!-- wordmark -->
+  <circle cx="86" cy="84" r="11" fill="url(#g)"/>
+  <text x="108" y="98" font-size="62" font-weight="800" fill="#16302B" letter-spacing="-1.5">fitfeed</text>
+  <text x="372" y="92" font-size="15" font-weight="600" fill="#5C6B66" letter-spacing="2" font-family="'SF Mono','Consolas',monospace">TRIAGE</text>
+
+  <text x="88" y="150" font-size="26" font-weight="600" fill="#16302B">Find internships &amp; jobs that actually fit you.</text>
+  <text x="88" y="184" font-size="17" fill="#5C6B66">Aggregate listings, rank them by skills alignment, approve, and apply — without the spray-and-pray.</text>
+
+  <!-- feature pills -->
+  <g font-size="14" font-weight="600">
+    <rect x="88" y="214" width="178" height="34" rx="17" fill="#fff" stroke="#E7E3D9"/>
+    <text x="108" y="236" fill="#0B5C4C">◐ skills alignment</text>
+    <rect x="278" y="214" width="158" height="34" rx="17" fill="#fff" stroke="#E7E3D9"/>
+    <text x="298" y="236" fill="#16302B">saved searches</text>
+    <rect x="448" y="214" width="166" height="34" rx="17" fill="#fff" stroke="#E7E3D9"/>
+    <text x="468" y="236" fill="#16302B">applied tracking</text>
+  </g>
+
+  <!-- signature alignment gauge -->
+  <g transform="translate(1080,150)">
+    <circle r="70" fill="none" stroke="#E7E3D9" stroke-width="14"/>
+    <circle r="70" fill="none" stroke="url(#g)" stroke-width="14" stroke-linecap="round"
+            stroke-dasharray="439.8" stroke-dashoffset="96.7" transform="rotate(-90)"/>
+    <text x="0" y="-2" text-anchor="middle" font-size="40" font-weight="700" fill="#16302B" font-family="'SF Mono','Consolas',monospace">78</text>
+    <text x="0" y="24" text-anchor="middle" font-size="13" letter-spacing="1" fill="#5C6B66">FIT %</text>
+  </g>
+  <!-- skill chips near gauge -->
+  <g font-size="13" font-weight="500">
+    <rect x="985" y="246" width="74" height="26" rx="6" fill="#E6F2EE" stroke="#BFE0D6"/>
+    <text x="997" y="263" fill="#0B5C4C">python</text>
+    <rect x="1067" y="246" width="62" height="26" rx="6" fill="#fff" stroke="#E7C8BF"/>
+    <text x="1079" y="263" fill="#C8553B">docker</text>
+  </g>
+</svg>

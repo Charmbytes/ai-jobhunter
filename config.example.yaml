@@ -1,0 +1,40 @@
+# Copy this to config.yaml and edit. config.yaml is yours and stays local.
+
+profile:
+  name: "Your Name"
+  email: "you@example.com"
+  phone: "+91XXXXXXXXXX"
+  resume_path: "/path/to/resume.pdf"
+  # Your skills — these drive the alignment score.
+  skills:
+    - python
+    - sql
+    - pandas
+    - machine learning
+    - react
+    - git
+    - docker
+
+filters:
+  # job profile / role keywords
+  keywords:
+    - data
+    - python
+    - intern
+  # "Remote" plus any cities; remote jobs always pass if remote_ok is true
+  locations:
+    - Mumbai
+    - Remote
+  salary_min: 300000        # annual INR floor; jobs with no listed salary are kept
+  experience_levels:        # intern / entry / mid / senior  (empty = any)
+    - intern
+    - entry
+  min_alignment: 0          # 0-100 skills-alignment floor
+  max_days_old: 30
+  remote_ok: true
+
+# Free API keys from https://developer.adzuna.com/  (leave blank to skip)
+adzuna:
+  app_id: ""
+  app_key: ""
+  country: "in"

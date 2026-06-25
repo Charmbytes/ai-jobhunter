@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 700" width="1180" height="700" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#23a487"/><stop offset="1" stop-color="#0F7C66"/>
+    </linearGradient>
+  </defs>
+  <rect width="1180" height="700" rx="16" fill="#FBFAF6"/>
+
+  <!-- ===== top bar ===== -->
+  <rect width="1180" height="58" rx="16" fill="#FFFFFF"/>
+  <rect y="40" width="1180" height="18" fill="#FFFFFF"/>
+  <line x1="0" y1="58" x2="1180" y2="58" stroke="#E7E3D9"/>
+  <circle cx="30" cy="29" r="8" fill="url(#brand)"/>
+  <text x="46" y="36" font-size="22" font-weight="800" fill="#16302B" letter-spacing="-.5">fitfeed</text>
+  <text x="146" y="33" font-size="10" font-weight="600" fill="#5C6B66" letter-spacing="1.5" font-family="'SF Mono',monospace">TRIAGE</text>
+  <!-- stats -->
+  <text x="838" y="26" font-size="18" font-weight="600" fill="#16302B" font-family="'SF Mono',monospace">12</text>
+  <text x="838" y="42" font-size="10" fill="#5C6B66" letter-spacing=".5">MATCHES</text>
+  <text x="912" y="26" font-size="18" font-weight="600" fill="#16302B" font-family="'SF Mono',monospace">61%</text>
+  <text x="912" y="42" font-size="10" fill="#5C6B66" letter-spacing=".5">AVG FIT</text>
+  <!-- pills -->
+  <rect x="960" y="14" width="96" height="30" rx="15" fill="#fff" stroke="#E7E3D9"/>
+  <text x="974" y="34" font-size="13" font-weight="600" fill="#16302B">Applied</text>
+  <circle cx="1040" cy="29" r="10" fill="#16302B"/><text x="1040" y="33" text-anchor="middle" font-size="11" fill="#fff" font-family="'SF Mono',monospace">3</text>
+  <rect x="1066" y="14" width="100" height="30" rx="15" fill="#fff" stroke="#E7E3D9"/>
+  <text x="1080" y="34" font-size="13" font-weight="600" fill="#16302B">Pipeline</text>
+  <circle cx="1150" cy="29" r="10" fill="#0F7C66"/><text x="1150" y="33" text-anchor="middle" font-size="11" fill="#fff" font-family="'SF Mono',monospace">2</text>
+
+  <!-- ===== filter rail ===== -->
+  <line x1="280" y1="58" x2="280" y2="700" stroke="#E7E3D9"/>
+  <text x="28" y="96" font-size="12" font-weight="700" fill="#5C6B66" letter-spacing="1">SAVED SEARCHES</text>
+  <rect x="28" y="108" width="150" height="28" rx="14" fill="#fff" stroke="#E7E3D9"/>
+  <text x="42" y="126" font-size="12.5" font-weight="500" fill="#16302B">Mumbai data interns ×</text>
+  <rect x="28" y="144" width="118" height="28" rx="14" fill="#fff" stroke="#E7E3D9"/>
+  <text x="42" y="162" font-size="12.5" font-weight="500" fill="#16302B">Remote React ×</text>
+  <line x1="28" y1="190" x2="252" y2="190" stroke="#E7E3D9"/>
+
+  <text x="28" y="218" font-size="12" font-weight="700" fill="#5C6B66" letter-spacing="1">YOUR SEARCH</text>
+  <!-- skills -->
+  <text x="28" y="242" font-size="11" font-weight="600" fill="#5C6B66" letter-spacing=".5">YOUR SKILLS</text>
+  <rect x="28" y="250" width="224" height="46" rx="9" fill="#fff" stroke="#E7E3D9"/>
+  <text x="40" y="270" font-size="13" fill="#16302B">python, sql, pandas,</text>
+  <text x="40" y="287" font-size="13" fill="#16302B">react, docker, aws</text>
+  <!-- role -->
+  <text x="28" y="320" font-size="11" font-weight="600" fill="#5C6B66" letter-spacing=".5">ROLE / KEYWORDS</text>
+  <rect x="28" y="328" width="224" height="34" rx="9" fill="#fff" stroke="#E7E3D9"/>
+  <text x="40" y="350" font-size="13" fill="#16302B">data, python</text>
+  <!-- location -->
+  <text x="28" y="384" font-size="11" font-weight="600" fill="#5C6B66" letter-spacing=".5">LOCATIONS</text>
+  <rect x="28" y="392" width="224" height="34" rx="9" fill="#fff" stroke="#E7E3D9"/>
+  <text x="40" y="414" font-size="13" fill="#16302B">Mumbai, Remote</text>
+  <!-- experience chips -->
+  <text x="28" y="448" font-size="11" font-weight="600" fill="#5C6B66" letter-spacing=".5">EXPERIENCE LEVEL</text>
+  <g font-size="13" font-weight="500">
+    <rect x="28" y="456" width="62" height="28" rx="14" fill="#16302B"/><text x="59" y="474" text-anchor="middle" fill="#fff">intern</text>
+    <rect x="98" y="456" width="56" height="28" rx="14" fill="#16302B"/><text x="126" y="474" text-anchor="middle" fill="#fff">entry</text>
+    <rect x="162" y="456" width="46" height="28" rx="14" fill="#fff" stroke="#E7E3D9"/><text x="185" y="474" text-anchor="middle" fill="#16302B">mid</text>
+  </g>
+  <!-- alignment slider -->
+  <text x="28" y="514" font-size="11" font-weight="600" fill="#5C6B66" letter-spacing=".5">MIN SKILLS ALIGNMENT</text>
+  <line x1="28" y1="528" x2="214" y2="528" stroke="#E7E3D9" stroke-width="4" stroke-linecap="round"/>
+  <line x1="28" y1="528" x2="120" y2="528" stroke="#0F7C66" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="120" cy="528" r="8" fill="#0F7C66"/>
+  <text x="226" y="533" font-size="13" font-weight="600" fill="#16302B" font-family="'SF Mono',monospace">40%</text>
+  <!-- search button -->
+  <rect x="28" y="556" width="224" height="46" rx="9" fill="#0F7C66"/>
+  <text x="140" y="584" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">Find matches</text>
+
+  <!-- ===== job stream ===== -->
+  <text x="316" y="100" font-size="26" font-weight="800" fill="#16302B" letter-spacing="-.5">Matches</text>
+  <text x="1152" y="100" text-anchor="end" font-size="12.5" fill="#5C6B66" font-family="'SF Mono',monospace">12 ranked · adzuna+remotive</text>
+
+  <!-- card 1 -->
+  <g>
+    <rect x="316" y="122" width="836" height="172" rx="14" fill="#FFFFFF" stroke="#E7E3D9"/>
+    <text x="340" y="156" font-size="19" font-weight="700" fill="#16302B">Full Stack Developer</text>
+    <text x="340" y="178" font-size="13.5" fill="#5C6B66">StartupX · Mumbai, Maharashtra</text>
+    <g font-size="11.5" font-family="'SF Mono',monospace">
+      <rect x="340" y="190" width="42" height="22" rx="6" fill="#FCFBF8" stroke="#E7E3D9"/><text x="350" y="205" fill="#16302B">mid</text>
+      <rect x="390" y="190" width="158" height="22" rx="6" fill="#FCFBF8" stroke="#E7E3D9"/><text x="400" y="205" fill="#16302B">INR 800,000-1,400,000</text>
+      <rect x="556" y="190" width="58" height="22" rx="6" fill="#FCFBF8" stroke="#E7E3D9"/><text x="566" y="205" fill="#5C6B66">adzuna</text>
+    </g>
+    <g font-size="12" font-weight="500">
+      <rect x="340" y="222" width="58" height="24" rx="6" fill="#E6F2EE" stroke="#BFE0D6"/><text x="352" y="238" fill="#0B5C4C">react</text>
+      <rect x="406" y="222" width="64" height="24" rx="6" fill="#E6F2EE" stroke="#BFE0D6"/><text x="418" y="238" fill="#0B5C4C">node.js</text>
+      <rect x="478" y="222" width="58" height="24" rx="6" fill="#E6F2EE" stroke="#BFE0D6"/><text x="490" y="238" fill="#0B5C4C">python</text>
+      <rect x="544" y="222" width="58" height="24" rx="6" fill="#E6F2EE" stroke="#BFE0D6"/><text x="556" y="238" fill="#0B5C4C">docker</text>
+      <rect x="610" y="222" width="80" height="24" rx="6" fill="#fff" stroke="#E7C8BF"/><text x="622" y="238" fill="#C8553B">mongodb</text>
+    </g>
+    <!-- actions -->
+    <rect x="340" y="258" width="104" height="30" rx="9" fill="#0F7C66"/><text x="392" y="278" text-anchor="middle" font-size="13" font-weight="600" fill="#fff">Approve →</text>
+    <rect x="452" y="258" width="58" height="30" rx="9" fill="#fff" stroke="#E7E3D9"/><text x="481" y="278" text-anchor="middle" font-size="13" font-weight="600" fill="#16302B">Skip</text>
+    <!-- gauge 71 -->
+    <g transform="translate(1092,180)">
+      <circle r="30" fill="none" stroke="#E7E3D9" stroke-width="7"/>
+      <circle r="30" fill="none" stroke="#0F7C66" stroke-width="7" stroke-linecap="round" stroke-dasharray="188.5" stroke-dashoffset="54.7" transform="rotate(-90)"/>
+      <text x="0" y="2" text-anchor="middle" font-size="18" font-weight="600" fill="#16302B" font-family="'SF Mono',monospace">71</text>
+      <text x="0" y="18" text-anchor="middle" font-size="8" letter-spacing=".5" fill="#5C6B66">FIT %</text>
+    </g>
+  </g>
+
+  <!-- card 2 -->
+  <g>
+    <rect x="316" y="306" width="836" height="172" rx="14" fill="#FFFFFF" stroke="#E7E3D9"/>
+    <text x="340" y="340" font-size="19" font-weight="700" fill="#16302B">Data Analyst</text>
+    <text x="340" y="362" font-size="13.5" fill="#5C6B66">FinReports · Remote</text>
+    <g font-size="11.5" font-family="'SF Mono',monospace">
+      <rect x="340" y="374" width="42" height="22" rx="6" fill="#FCFBF8" stroke="#E7E3D9"/><text x="350" y="389" fill="#16302B">mid</text>
+      <rect x="390" y="374" width="150" height="22" rx="6" fill="#FCFBF8" stroke="#E7E3D9"/><text x="400" y="389" fill="#16302B">INR 500,000-900,000</text>
+      <rect x="548" y="374" width="66" height="22" rx="6" fill="#FCFBF8" stroke="#E7E3D9"/><text x="558" y="389" fill="#5C6B66">remotive</text>
+    </g>
+    <g font-size="12" font-weight="500">
+      <rect x="340" y="406" width="44" height="24" rx="6" fill="#E6F2EE" stroke="#BFE0D6"/><text x="352" y="422" fill="#0B5C4C">sql</text>
+      <rect x="392" y="406" width="58" height="24" rx="6" fill="#E6F2EE" stroke="#BFE0D6"/><text x="404" y="422" fill="#0B5C4C">python</text>
+      <rect x="458" y="406" width="48" height="24" rx="6" fill="#fff" stroke="#E7C8BF"/><text x="470" y="422" fill="#C8553B">excel</text>
+      <rect x="514" y="406" width="68" height="24" rx="6" fill="#fff" stroke="#E7C8BF"/><text x="526" y="422" fill="#C8553B">power bi</text>
+    </g>
+    <rect x="340" y="442" width="104" height="30" rx="9" fill="#0F7C66"/><text x="392" y="462" text-anchor="middle" font-size="13" font-weight="600" fill="#fff">Approve →</text>
+    <rect x="452" y="442" width="58" height="30" rx="9" fill="#fff" stroke="#E7E3D9"/><text x="481" y="462" text-anchor="middle" font-size="13" font-weight="600" fill="#16302B">Skip</text>
+    <!-- gauge 40 amber -->
+    <g transform="translate(1092,364)">
+      <circle r="30" fill="none" stroke="#E7E3D9" stroke-width="7"/>
+      <circle r="30" fill="none" stroke="#E1972F" stroke-width="7" stroke-linecap="round" stroke-dasharray="188.5" stroke-dashoffset="113.1" transform="rotate(-90)"/>
+      <text x="0" y="2" text-anchor="middle" font-size="18" font-weight="600" fill="#16302B" font-family="'SF Mono',monospace">40</text>
+      <text x="0" y="18" text-anchor="middle" font-size="8" letter-spacing=".5" fill="#5C6B66">FIT %</text>
+    </g>
+  </g>
+
+  <!-- card 3 (applied, dimmed) -->
+  <g opacity="0.62">
+    <rect x="316" y="490" width="836" height="120" rx="14" fill="#FFFFFF" stroke="#E7E3D9"/>
+    <text x="340" y="524" font-size="19" font-weight="700" fill="#16302B">Data Science Intern</text>
+    <text x="340" y="546" font-size="13.5" fill="#5C6B66">Acme Analytics · Mumbai, Maharashtra</text>
+    <rect x="340" y="558" width="78" height="24" rx="6" fill="#E6F2EE" stroke="#BFE0D6"/>
+    <text x="352" y="574" font-size="11.5" font-weight="600" fill="#0B5C4C" font-family="'SF Mono',monospace">applied ✓</text>
+    <g transform="translate(1092,548)">
+      <circle r="30" fill="none" stroke="#E7E3D9" stroke-width="7"/>
+      <circle r="30" fill="none" stroke="#E1972F" stroke-width="7" stroke-linecap="round" stroke-dasharray="188.5" stroke-dashoffset="141.4" transform="rotate(-90)"/>
+      <text x="0" y="2" text-anchor="middle" font-size="18" font-weight="600" fill="#16302B" font-family="'SF Mono',monospace">25</text>
+      <text x="0" y="18" text-anchor="middle" font-size="8" letter-spacing=".5" fill="#5C6B66">FIT %</text>
+    </g>
+  </g>
+</svg>

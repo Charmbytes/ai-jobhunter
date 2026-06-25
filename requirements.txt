@@ -1,0 +1,7 @@
+requests>=2.31
+rapidfuzz>=3.0
+pyyaml>=6.0
+rich>=13.0
+flask>=3.0
+# optional, only needed for the "saved-login" assisted-apply browser step:
+# playwright>=1.40   (then run: playwright install chromium)
