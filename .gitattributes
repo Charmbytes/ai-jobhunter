@@ -1,0 +1,4 @@
+# GitHub Linguist overrides
+# Mark the web UI HTML as generated/vendored so it doesn't swamp Python
+# in the language bar, but Python + HTML both still show up.
+webui/preview.html linguist-generated=true
