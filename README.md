@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/banner.svg" alt="fitfeed — find internships and jobs that actually fit you" width="100%">
+  <img src="docs/banner.svg" alt="AI JobHunter — find internships and jobs that actually fit you" width="100%">
 </p>
 
 <p align="center">
@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/status-active-E1972F" alt="Status: active">
 </p>
 
-<h1 align="center">fitfeed</h1>
+<h1 align="center">AI JobHunter</h1>
 
 <p align="center">
   A local job &amp; internship hunter that aggregates listings, ranks them by how well they
@@ -21,13 +21,13 @@
 ## Why
 
 Job boards bury the roles you'd actually be good at under hundreds you wouldn't. Mass auto-apply
-bots get your accounts banned and produce throwaway applications. **fitfeed** takes the middle path:
+bots get your accounts banned and produce throwaway applications. **AI JobHunter** takes the middle path:
 it pulls real listings, scores each one against *your* skills so the best-fit jobs rise to the top,
 and keeps a human in the loop for the final apply — so your accounts stay safe and your applications
 stay deliberate.
 
 <p align="center">
-  <img src="docs/preview.svg" alt="The fitfeed dashboard: filter rail, ranked job cards with fit gauges, and an approval pipeline" width="100%">
+  <img src="docs/preview.svg" alt="The AI JobHunter dashboard: filter rail, ranked job cards with fit gauges, and an approval pipeline" width="100%">
 </p>
 
 > The image above is a rendering of the interface. To drop in a real screenshot, run the app,
@@ -79,7 +79,7 @@ pip install playwright
 playwright install chromium
 ```
 
-You log in once; the session is remembered for next time. fitfeed never submits an application for
+You log in once; the session is remembered for next time. AI JobHunter never submits an application for
 you — you make the final click.
 
 ## Command line
@@ -132,10 +132,10 @@ Subclass `JobSource`, implement `fetch()` to return `Job` objects, and register 
 ## A note on Naukri / LinkedIn / Internshala
 
 Bot-scraping and auto-submitting applications to these sites violates their Terms of Service and gets
-accounts banned. fitfeed deliberately avoids that: it surfaces comparable listings legally via Adzuna
+accounts banned. AI JobHunter deliberately avoids that: it surfaces comparable listings legally via Adzuna
 for the browse/rank step, and for the apply step it opens jobs in *your* real session so you stay in
 control. Extend at your own discretion.
 
 ## License
 
-[MIT](LICENSE) © Your Name
+[MIT](LICENSE) ©charmbytes
