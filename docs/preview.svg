@@ -11,8 +11,8 @@
   <rect y="40" width="1180" height="18" fill="#FFFFFF"/>
   <line x1="0" y1="58" x2="1180" y2="58" stroke="#E7E3D9"/>
   <circle cx="30" cy="29" r="8" fill="url(#brand)"/>
-  <text x="46" y="36" font-size="22" font-weight="800" fill="#16302B" letter-spacing="-.5">fitfeed</text>
-  <text x="146" y="33" font-size="10" font-weight="600" fill="#5C6B66" letter-spacing="1.5" font-family="'SF Mono',monospace">TRIAGE</text>
+  <text x="46" y="34" font-size="14" font-weight="800" fill="#16302B" letter-spacing="-.3">AI JobHunter</text>
+  <text x="165" y="33" font-size="10" font-weight="600" fill="#5C6B66" letter-spacing="1.5" font-family="'SF Mono',monospace">TRIAGE</text>
   <!-- stats -->
   <text x="838" y="26" font-size="18" font-weight="600" fill="#16302B" font-family="'SF Mono',monospace">12</text>
   <text x="838" y="42" font-size="10" fill="#5C6B66" letter-spacing=".5">MATCHES</text>
